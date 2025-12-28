@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card p-4">
+  <h3 class="mb-3 text-center">Check News Authenticity</h3>
+  <form method="post" action="/predict">
+    <div class="mb-3">
+      <label class="form-label">Title</label>
+      <input class="form-control" name="title" placeholder="Enter news title">
+    </div>
+    <div class="mb-3">
+      <label class="form-label">News Text</label>
+      <textarea class="form-control" name="news_text" rows="6" placeholder="Paste news content here..."></textarea>
+    </div>
+    <button class="btn btn-primary w-100" type="submit">🔍 Analyze</button>
+  </form>
+</div>
+{% endblock %}

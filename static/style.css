@@ -1,0 +1,29 @@
+body {
+  background-color: #f8fafc;
+  font-family: 'Poppins', sans-serif;
+  color: #1e293b;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark {
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.dark .card {
+  background-color: #1e293b;
+  color: #e2e8f0;
+}
+
+.btn-toggle {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 5px 15px;
+  color: inherit;
+}

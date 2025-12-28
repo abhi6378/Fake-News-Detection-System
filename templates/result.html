@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Prediction: {{ label }}</h5>
+    {% if confidence %}
+      <p class="card-text">Confidence: {{ confidence }}%</p>
+    {% endif %}
+    <p><strong>Topic:</strong> {{ topic }}</p>
+    <h6>News Snippet</h6>
+    <p>{{ text }}</p>
+    <a href="/" class="btn btn-secondary">Check Another</a>
+  </div>
+</div>
+{% endblock %}
