@@ -30,15 +30,17 @@ Machine Learning Model
 Prediction (REAL / FAKE)
 
 ⚙️ Technologies Used
-Category	Tools
-Programming Language	Python
-Machine Learning	Logistic Regression, Naive Bayes
-NLP	TF-IDF, NLTK
-Web Framework	Flask
-Frontend	HTML, CSS, Bootstrap
-Data Handling	Pandas, NumPy
-Model Storage	Joblib
-Version Control	GitHub
+| Category             | Tools                            |
+| -------------------- | -------------------------------- |
+| Programming Language | Python                           |
+| Machine Learning     | Logistic Regression, Naive Bayes |
+| NLP                  | TF-IDF, NLTK                     |
+| Web Framework        | Flask                            |
+| Frontend             | HTML, CSS, Bootstrap             |
+| Data Handling        | Pandas, NumPy                    |
+| Model Storage        | Joblib                           |
+| Version Control      | GitHub                           |
+
 ✨ Key Features
 
 Fake vs Real news classification
@@ -76,7 +78,7 @@ Fake-News-Detection/
 
 🚀 How to Run the Project (Localhost)
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/Fake-News-Detection.git
+git clone https://github.com/abhi6378/Fake-News-Detection.git
 cd Fake-News-Detection
 
 2️⃣ Create Virtual Environment
