@@ -76,6 +76,7 @@ Fake-News-Detection/
 │
 └── README.md
 
+
 🚀 How to Run the Project (Localhost)
 1️⃣ Clone the Repository
 git clone https://github.com/abhi6378/Fake-News-Detection.git
